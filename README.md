@@ -1,5 +1,5 @@
-# API_Automation
-基于Pytest+request+Allure的接口自动化开源框架
+# API_Automation+PTtest
+基于Pytest+request+Allure+Loucst的接口自动化开源框架
 
 ----
 #### 模块类的设计
