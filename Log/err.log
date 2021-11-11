@@ -1,0 +1,70 @@
+[ERROR 2020-09-05 17:10:27]get cookies error, please checkout!!!
+[ERROR 2020-09-05 17:11:35]get cookies error, please checkout!!!
+[ERROR 2020-09-05 17:11:36]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-05 17:13:48]get cookies error, please checkout!!!
+[ERROR 2020-09-05 17:13:48]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-09-05 17:14:46]get cookies error, please checkout!!!
+[ERROR 2020-09-05 17:14:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-09-05 17:14:57]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-09-05 17:15:38]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-09-05 17:22:03]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-09-05 17:23:49]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-05 17:24:05]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-05 17:26:40]Response body msg != expected_msg, expected_msg is 成功, body_msg is msg
+[ERROR 2020-09-05 17:31:42]Response body msg != expected_msg, expected_msg is 成功, body_msg is msg
+[ERROR 2020-09-05 17:32:28]Response body msg != expected_msg, expected_msg is 成功, body_msg is msg
+[ERROR 2020-09-05 18:22:08]Response body msg != expected_msg, expected_msg is 发送验证码成功, body_msg is msg
+[ERROR 2020-09-05 18:23:11]Response body msg != expected_msg, expected_msg is 发送验证码成功, body_msg is msg
+[ERROR 2020-09-05 18:24:09]Response body msg != expected_msg, expected_msg is 发送验证码成功, body_msg is msg
+[ERROR 2020-09-05 18:31:15]Response body msg != expected_msg, expected_msg is 发送验证码成功, body_msg is msg
+[ERROR 2020-09-05 18:34:02]Response body msg != expected_msg, expected_msg is 校验成功, body_msg is msg
+[ERROR 2020-09-05 18:34:53]Response body msg != expected_msg, expected_msg is 提交成功, body_msg is msg
+[ERROR 2020-09-05 18:35:10]Response body msg != expected_msg, expected_msg is 提交成功, body_msg is msg
+[ERROR 2020-09-05 18:42:16]Response body msg != expected_msg, expected_msg is 提交成功, body_msg is msg
+[ERROR 2020-09-05 18:42:38]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-05 18:42:53]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-07 11:11:54]statusCode error, expected_code is 200, statusCode is 401 
+[ERROR 2020-09-07 13:51:31]Response body msg != expected_msg, expected_msg is 成功, body_msg is msg
+[ERROR 2020-09-07 14:10:33]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-07 15:36:31]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-07 16:14:43]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-09-08 19:38:02]Response body msg != expected_msg, expected_msg is 成功, body_msg is msg
+[ERROR 2020-09-08 19:52:21]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-08 20:06:07]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-08 20:13:56]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-08 20:15:03]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-09-15 20:22:52]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:53]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:54]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:54]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:55]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:56]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:56]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:57]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:57]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:58]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:59]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:22:59]get cookies error, please checkout!!!
+[ERROR 2020-09-15 20:23:00]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:01]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:02]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:02]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:03]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:03]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:04]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:04]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:05]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:27:06]get cookies error, please checkout!!!
+[ERROR 2020-10-23 10:55:06]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-23 10:55:07]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-23 10:55:13]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-23 10:55:25]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-23 10:55:33]statusCode error, expected_code is 200, statusCode is 503 
+[ERROR 2020-10-23 10:55:59]Response body msg != expected_msg, expected_msg is 校验成功, body_msg is msg
+[ERROR 2020-10-24 10:47:35]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-24 10:48:07]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-24 10:48:08]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-24 10:48:14]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-24 10:48:23]statusCode error, expected_code is 200, statusCode is 400 
+[ERROR 2020-10-24 10:48:26]statusCode error, expected_code is 200, statusCode is 503 
+[ERROR 2020-10-24 10:48:36]Response body msg != expected_msg, expected_msg is 校验成功, body_msg is msg

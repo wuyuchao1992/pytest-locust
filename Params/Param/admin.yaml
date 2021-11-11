@@ -1,0 +1,208 @@
+---
+admin:
+  dec: 管理端相关
+  parameters:
+    -
+      dec: 用户详情
+      url: /api/v1/supplier/portal/basic/account/info
+      data:
+    -
+      dec: 今日订单总额
+      url: /api/v1/supplier/portal/admin/statistics/daily/orders/amount
+      data:
+
+    - dec: 支付数据
+      url: /api/v1/supplier/portal/admin/statistics/daily/orders
+      data:
+
+    - dec: 实时销售榜
+      url: /api/v1/supplier/portal/admin/statistics/daily/products_sales
+      data:
+
+    - dec: 主营类目
+      url: /api/v1/supplier/portal/admin/amount/category/margin
+      data:
+
+    - dec: 商家审核状态
+      url: /api/v1/supplier/portal/basic/selection/status?type=merchantAuditStat
+      data:
+
+    - dec: 买手列表
+      url: /api/v1/supplier/portal/basic/account/seller
+      data:
+
+    - dec: 商家列表
+      url: /api/v1/supplier/portal/admin/audit/material/merchant/settled
+      data:
+        pageNum: 1
+        pageSize: 2
+        categoryId: 4_14
+        settledTypeId: 2
+        auditStatus: 0
+        sellerId: 17855036021268480
+        merchantName: 广东医药股份有限公司
+        accountName: 19967894972
+        merchantCode: 30808803079348224
+
+    - dec: 编辑商家资料
+      url: /api/v1/supplier/portal/admin/material/merchant/31531922307932160/settled
+      data:
+        id: "31531922307932160"
+        settledTypeId: "2"
+        merchantName: 广东医药股份有限公司
+        idCardFrontImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312708060930048.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722472%3B1597726072%26q-key-time%3D1597722472%3B1597726072%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D3219a17191949539a154aca6f33ef8b17bb0f398"
+        idCardFrontImgKey: ""
+        idCardReverseImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312792609710080.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722493%3B1597726093%26q-key-time%3D1597722493%3B1597726093%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D2ae24e3f777de696a4c7cced4e90790139040b9b"
+        idCardReverseImgKey: ""
+        name: 罗建东
+        identityCardNo: "441425197602064153"
+        validityOfIdCard: "2037-08-31T16:00:00.000Z"
+        validityStartDateOfIdCard: "2016-07-10T16:00:00.000Z"
+        accountName : 广东健方医药股份有限公司
+        categoryId:
+          -
+            "4_14"
+        category:
+          -
+            categoryId: "4_14"
+            categoryName: 手机数码
+        sellers:
+          -
+            sellerId: "17855038122614784"
+            sellerName: "广州团队黄谊伟"
+        sellerIds:
+          -
+            "17855038122614784"
+        auditStatus: "0"
+        auditResult: ""
+        businessLicenseImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312812964667392.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722497%3B1597726097%26q-key-time%3D1597722497%3B1597726097%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D095909079ba3ebe197647d454658e81846338949"
+        businessLicenseImgKey: ""
+        businessName: 广东健方医药股份有限公司
+        registrationNum: "91441400MA4URJLM4Q"
+        socialCode: "91441400MA4URJLM4Q"
+        businessAddress: 梅州市梅县区程江镇锭塘巷双冠世家A栋1号店
+        ibl: "0"
+        startOperatingPeriod: "2016-07-10T16:00:00.000Z"
+
+    - dec: 驳回商家资料
+      url: /api/v1/supplier/portal/admin/audit/material/merchant/30924048208748544/settled
+      data:
+        id: "30924048208748544"
+        auditStatus: "2"
+        auditResult: "测试驳回，请无视"
+
+    - dec: 通过商家资料
+      url: /api/v1/supplier/portal/admin/audit/material/merchant/31531922307932160/settled
+      data:
+        id: "31531922307932160"
+        sellers:
+          -
+            sellerId: "17855038122614784"
+            sellerName: "广州团队黄谊伟"
+        sellerIds:
+          -
+            "17855038122614784"
+        auditStatus: "1"
+
+    - dec: 订单汇总
+      url: /api/v1/supplier/portal/admin/orders/statistics
+      data:
+
+    - dec: 订单状态
+      url: /api/v1/supplier/portal/basic/selection/status?type=order
+      data:
+
+    - dec: 订单列表
+      url: /api/v1/supplier/portal/admin/orders?pageNum=1&pageSize=20
+      data:
+
+    - dec: 导出订单
+      url: /api/v1/supplier/portal/admin/orders/export
+      data:
+        beginTime: "2020-09-08 19:50:17"
+        endTime: "2020-09-10 19:50:22"
+
+    - dec: 保证金管理列表
+      url: /api/v1/supplier/portal/admin/audit/amount/margin/trade?pageNum=1&pageSize=20
+      data:
+
+    - dec: 交易类型
+      url: /api/v1/supplier/portal/basic/selection/status?type=cashDepositPayType
+      data:
+
+    - dec: 交易状态
+      url: /api/v1/supplier/portal/basic/selection/status?type=cashDepositPayStatus
+      data:
+
+    - dec: 支付方式
+      url: /api/v1/supplier/portal/basic/selection/status?type=cashDepositPayment
+      data:
+
+    - dec: 扣除保证金
+      url: /api/v1/supplier/portal/admin/amount/margin/trade/deduct
+      data:
+        amount: 1
+        deductReason: "扣款测试"
+        merchantId: "30924048208748544"
+
+    - dec: 保证金配置列表
+      url: /api/v1/supplier/portal/admin/amount/margin/category?pageNum=1&pageSize=20
+      data:
+
+    - dec: 主营类目列表
+      url: /api/v1/supplier/portal/admin/amount/category/margin
+      data:
+
+    - dec: 结算列表
+      url: /api/v1/supplier/portal/admin/amount/settlement?pageNum=1&pageSize=20
+      data:
+
+    - dec: 订单状态
+      url: /api/v1/supplier/portal/basic/selection/status?type=order
+      data:
+
+    - dec: 结算状态
+      url: /api/v1/supplier/portal/basic/selection/status?type=settlement
+      data:
+
+    - dec: 导出结算列表
+      url: /api/v1/supplier/portal/admin/amount/settlement/export
+      data:
+        beginTime: "2020-09-01 20:23:41"
+        endTime: "2020-09-07 20:23:49"
+
+    - dec: 提现管理列表
+      url: /api/v1/supplier/portal/admin/audit/amount/merchant/settlement?pageNum=1&pageSize=20
+      data:
+
+    - dec: 银行卡账户类型
+      url: /api/v1/supplier/portal/basic/selection/status?type=cardBindType
+      data:
+
+    - dec: 结算审核状态
+      url: /api/v1/supplier/portal/basic/selection/status?type=merchantAuditStatus
+      data:
+
+    - dec: 提现状态
+      url: /api/v1/supplier/portal/basic/selection/status?type=withdrawDeposit
+      data:
+
+    - dec: 银行卡列表
+      url: /api/v1/supplier/portal/admin/cards/merchant?pageSize=20&pageNum=1
+      data:
+
+    - dec: 银行卡状态
+      url: /api/v1/supplier/portal/basic/selection/status?type=cardBindStatus
+      data:
+
+    - dec: 业务类型
+      url: /api/v1/supplier/portal/basic/selection/status?type=businessType
+      data:
+
+    - dec: 收支明细列表
+      url: /api/v1/supplier/portal/admin/amount/settlement/trade?pageSize=20&pageNum=1
+      data:
+
+    - dec: 银行卡列表
+      url: /api/v1/supplier/portal/admin/cards/merchant?pageSize=20&pageNum=1
+      data:

@@ -1,0 +1,146 @@
+---
+shop:
+  dec: 商家相关
+  parameters:
+    -
+      dec: 注册获取的验证码
+      url: /api/v1/supplier/portal/open/sms/code/send/type/register
+      data:
+        phone: 19967890032
+
+    -
+      dec: 校验验证码
+      url: /api/v1/supplier/portal/open/sms/code/verify/type/register
+      data:
+        smsCode: 1234
+
+    -
+      dec: 注册
+      url: /api/v1/supplier/portal/open/account/merchant/register
+      data:
+        smsCode: "1234"
+        settledType: "2"
+        merchantName: 广东医药股份有限公司
+        pwd: "a123456"
+        confirmPwd: "a123456"
+        mainCategories:
+          -
+            categoryId: "4_14"
+            categoryLevel: "1"
+            categoryName: 手机数码
+            categoryOrder: "13"
+            categoryPath: "4,4_14"
+            deleted: "0"
+            extCategoryId: "14"
+            extParentCategoryId: "0"
+            parentCategoryId: "4"
+            sourceFrom: "4"
+        agree: "true"
+        idCardFrontImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312708060930048.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722472%3B1597726072%26q-key-time%3D1597722472%3B1597726072%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D3219a17191949539a154aca6f33ef8b17bb0f398"
+        idCardFrontImgKey: "24312708060930048.jpeg"
+        idCardReverseImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312792609710080.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722493%3B1597726093%26q-key-time%3D1597722493%3B1597726093%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D2ae24e3f777de696a4c7cced4e90790139040b9b"
+        idCardReverseImgKey: "24312792609710080.jpeg"
+        name: 罗建东
+        identityCardNo: "441425197602064153"
+        validityOfIdCard: "2037-09-01T00:00:00+08:00"
+        validityStartDateOfIdCard: "2017-09-01T00:00:00+08:00"
+        validityOfIdCardDate:
+          -
+            "2017-09-01T00:00:00+08:00"
+          -
+            "2037-09-01T00:00:00+08:00"
+        longTime: "true"
+        businessLicenseImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312812964667392.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722497%3B1597726097%26q-key-time%3D1597722497%3B1597726097%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D095909079ba3ebe197647d454658e81846338949"
+        businessLicenseImgKey: "24312812964667392.jpeg"
+        businessName: 广东健方医药股份有限公司
+        registrationNum: "91441400MA4URJLM4Q"
+        socialCode: "91441400MA4URJLM4Q"
+        businessAddress: 梅州市梅县区程江镇锭塘巷双冠世家A栋1号店
+        ibl: "0"
+        startOperatingPeriod: "2016-07-11T00:00:00+08:00"
+        operatingPeriodDate:
+          -
+            "2016-07-11T00:00:00+08:00"
+
+    - dec: 编辑资料
+      url: /api/v1/supplier/portal/basic/material/merchant/resubmit
+      data:
+        accountName: 广东健方医药股份有限公司
+        auditStatus: "2"
+        businessAddress: 梅州市梅县区程江镇锭塘巷双冠世家A栋1号店
+        businessLicenseImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312812964667392.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722497%3B1597726097%26q-key-time%3D1597722497%3B1597726097%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D095909079ba3ebe197647d454658e81846338949"
+        businessName: 广东健方医药股份有限公司
+        category:
+          -
+            categoryId: "4_10"
+            categoryName: 服饰内衣
+        categoryId:
+          -
+            "4_10"
+        ibl: "1"
+        id: "30924048208748544"
+        idCardFrontImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312708060930048.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722472%3B1597726072%26q-key-time%3D1597722472%3B1597726072%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D3219a17191949539a154aca6f33ef8b17bb0f398"
+        idCardReverseImgUrl: "http://chungou-supplier-dev-1300089500.cos.ap-guangzhou.myqcloud.com/24312792609710080.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDIQ0Uq0dwgGhssipAlEUtzsZtSklXM0LP%26q-sign-time%3D1597722493%3B1597726093%26q-key-time%3D1597722493%3B1597726093%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D2ae24e3f777de696a4c7cced4e90790139040b9b"
+        identityCardNo: "441425197602064153"
+        mainCategories:
+          -
+            categoryId: "4_10"
+            categoryName: 服饰内衣
+        name: 罗建东
+        settledTypeId: "2"
+        socialCode: "91441400MA4URJLM4Q"
+        startOperatingPeriod: "2016-07-10T16:00:00.000Z"
+        validityOfIdCard: "2037-08-31T16:00:00.000Z"
+        validityStartDateOfIdCard: "2016-07-10T16:00:00.000Z"
+        idCardFrontImgKey: ""
+        idCardReverseImgKey: ""
+        businessLicenseImgKey: ""
+
+    - dec: 获取账户保证金信息
+      url: /api/v1/supplier/portal/basic/amount/margin
+      data:
+
+    - dec: 获取保证金记录列表
+      url: /api/v1/supplier/portal/basic/cards/type/deposit
+      data:
+
+    - dec: 获取充值保证金账号
+      url: /api/v1/supplier/portal/basic/amount/margin/account
+      data:
+
+    - dec: 充值保证金
+      url: /api/v1/supplier/portal/basic/amount/margin/trade/recharge
+      data:
+        amount: 50000
+        bankName: "工商银行"
+        bindCardName: "张三丰"
+        transactionType: 0
+        transferCardNo: "6212262012002653776"
+
+    - dec: 商家资料以及返回菜单
+      url: /api/v1/supplier/portal/basic/account/info
+      data:
+
+    - dec: 今日订单总额
+      url: /api/v1/supplier/portal/basic/statistics/daily/orders/amount
+      data:
+
+    - dec: 支付数据
+      url: /api/v1/supplier/portal/basic/statistics/daily/orders
+      data:
+
+    - dec: 审核资料详情
+      url: /api/v1/supplier/portal/basic/material/merchant/settled
+      data:
+
+    - dec: 获取主营类目列表
+      url: /api/v1/supplier/portal/open/categories
+      data:
+
+    - dec: 订单统计
+      url: /api/v1/supplier/portal/basic/orders/statistics
+      data:
+
+    - dec: 订单列表
+      url: /api/v1/supplier/portal/basic/orders?pageNum=1&pageSize=20
+      data:

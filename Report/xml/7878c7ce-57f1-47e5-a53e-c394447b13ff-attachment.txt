@@ -1,0 +1,5 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:939 Starting new HTTPS connection (1): test-lives-admin.chungoulife.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:433 https://test-lives-admin.chungoulife.com:443 "POST /api/v1/pb/auz/open/login/verify/img/code HTTP/1.1" 200 1700
+DEBUG    urllib3.connectionpool:connectionpool.py:939 Starting new HTTPS connection (1): test-lives-admin.chungoulife.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:433 https://test-lives-admin.chungoulife.com:443 "POST /api/v1/pb/auz/oauth/token HTTP/1.1" 403 43
+ERROR    root:Log.py:84 [ERROR 2020-10-23 10:27:04]get cookies error, please checkout!!!
